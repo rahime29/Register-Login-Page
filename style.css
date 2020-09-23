@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(src/business.jpg);
+    width: 100%;
+    height: auto;
+}
+
+  div.transbox {
+    margin-top: 51px;
+    margin-left: 430px;
+    height: 576px;
+    width: 466px;
+    background-color: #000000;
+    border: 1px solid black;
+    opacity: 0.6;
+    text-align: center;
+    
+
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #ffffff;
+  }

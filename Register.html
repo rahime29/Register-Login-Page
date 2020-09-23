@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Design</title>
+    <link rel="stylesheet" href="style.css">
+    <h3 style="text-align: center;" >USER REGISTRATION</h3>
+    <hr>
+</head>
+<body>
+    <div class="transbox">
+        <form action="Home/Register">
+                <br><br><br>
+
+                <p>Identity Card No : <input type="text" name="id" placeholder="Please enter your ID No" required></p>
+
+                <p>Name : <input type="text" name="name" placeholder="Please enter your name" required></p> 
+
+                <p>Surname : <input type="text" name="surname" placeholder="Please enter your surname" required></p>
+
+                <p>
+                    Company :
+                            <Select name="companies" id="companies">
+                                    <option>Choose</option>
+                                    <option value="A">A</option>
+                                    <option value="B">B</option>
+                                    <option value="C">C</option>
+                                    <option value="D">D</option>
+                                    <option value="E">E</option>
+                            </Select>
+                </p>
+
+                <p>
+                    Female <input type="radio" name="sex">
+                    Male <input type="radio" name="sex">
+                </p>
+
+                <p>E-mail : <input type="email" name="email" required></p>
+
+                <p>Password : <input type="password" name="password" required></p>
+
+                <p>Confirm Password : <input type="password" name="confirmpassword" required></p>
+
+                <label>
+                  <p><input class="uk-checkbox" name="terms_of_service" type="checkbox" > I accept the <a href="" style="color: white;">terms of service</a>.</p>  
+                </label>
+
+                <p>
+                    <input type="submit" name="Register">
+                </p>
+
+            </form>
+        </div>
+</body>
+</html>
